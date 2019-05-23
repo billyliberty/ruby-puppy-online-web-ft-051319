@@ -9,7 +9,7 @@ class Dog
     end
 
     def self.all
-        puts @@all.each{|name| name.dog}
+        puts @@all.collect{|name| name.dog}
     end
 
     def self.clear_all
